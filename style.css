@@ -1,0 +1,26 @@
+.circle-pro{
+  width: 250px;
+  height: 250px;
+  position: relative;
+  background: conic-gradient(#b09b9b 3.6deg,#fff 0deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10%;
+  transition: all 0.5s ease;
+
+}
+.circle-pro::before{
+  content: "";
+  position: absolute;
+  border-radius: 10%;
+  width: 210px;
+  height: 210px;
+  background-color: #ffff;
+  transition: all 0.5s ease;
+}
+.circle-pro .value{
+  color: #000;
+  z-index: 99;
+  position: relative;
+}
